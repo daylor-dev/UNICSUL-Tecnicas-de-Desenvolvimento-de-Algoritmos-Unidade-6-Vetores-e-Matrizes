@@ -32,7 +32,7 @@ Em pseudocódigo:
 
 
 
-   var nome da variável: vetor\[posição inicial..posição final] de tipo\_de\_dados
+   var nome da variável: vetor[posição inicial..posição final] de tipo_de_dados
 
 
 
