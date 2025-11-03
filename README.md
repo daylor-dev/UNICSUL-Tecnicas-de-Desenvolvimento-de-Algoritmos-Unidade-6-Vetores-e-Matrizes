@@ -146,7 +146,7 @@ var mat:vetor [1..2, 1..4] de inteiro
 
 
 
-![esqueminha explicando o conceito de matrizes](esquema_de_matrizes_1.png)
+![esqueminha explicando o conceito de matrizes](esquema_de_matrizes.png)
 
 
 
