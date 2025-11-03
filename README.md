@@ -1,4 +1,4 @@
-\# UNICSUL | Técnicas de Desenvolvimento de Algoritmos | Módulo VI: Vetores e Matrizes
+# UNICSUL | Técnicas de Desenvolvimento de Algoritmos | Módulo VI: Vetores e Matrizes
 
 
 
@@ -10,11 +10,11 @@ Vetores e Matrizes são tipos de dados.
 
 
 
-!\[Exemplo de Array](exemplo\_de\_array.png)
+![Exemplo de Array](exemplo_de_array.png)
 
 
 
-\## Vetor (array)
+## Vetor (array)
 
 Conhecido como variável composta homogênea unidimensional. 
 
@@ -32,7 +32,7 @@ Em pseudocódigo:
 
 
 
-&nbsp;   var nome da variável: vetor\[posição inicial..posição final] de tipo\_de\_dados
+   var nome da variável: vetor\[posição inicial..posição final] de tipo\_de\_dados
 
 
 
@@ -44,11 +44,11 @@ Para atribuir valores a cada "caixa" dentro do array, é preciso colocar o nome 
 
 
 
-X\[2]
+X[2]
 
 
 
-\### Utilizando vetor em estruturas de código
+### Utilizando vetor em estruturas de código
 
 
 
@@ -56,41 +56,41 @@ Array em loop
 
 
 
-&nbsp;   Algoritmo "semnome"
+   Algoritmo "semnome"
 
-&nbsp;   // Disciplina   : \[Vetores e Matrizes]
+   // Disciplina   : \[Vetores e Matrizes]
 
-&nbsp;   // Descrição   : Aqui você descreve o que o programa faz! (função)
+   // Descrição   : Aqui você descreve o que o programa faz! (função)
 
-&nbsp;   // Autor(a)    : Danielli Ayumi Obayashi
+   // Autor(a)    : Danielli Ayumi Obayashi
 
-&nbsp;   // Data atual  : 03/11/2025
+   // Data atual  : 03/11/2025
 
-&nbsp;   Var
+   Var
 
-&nbsp;   // Seção de Declarações das variáveis 
+   // Seção de Declarações das variáveis 
 
-&nbsp;   i: inteiro
+   i: inteiro
 
-&nbsp;   x: vetor\[1..5] de real
-
-
-
-&nbsp;   Inicio
-
-&nbsp;   // Seção de Comandos, procedimento, funções, operadores, etc... 
-
-&nbsp;   para i <- 1 até 5 faça
-
-&nbsp;   escreval("Digite o", i, "° número")
-
-&nbsp;   leia(x\[i])
-
-&nbsp;   fimpara
+   x: vetor\[1..5] de real
 
 
 
-&nbsp;   Fimalgoritmo
+   Inicio
+
+   // Seção de Comandos, procedimento, funções, operadores, etc... 
+
+   para i <- 1 até 5 faça
+
+   escreval("Digite o", i, "° número")
+
+   leia(x[i])
+
+   fimpara
+
+
+
+   Fimalgoritmo
 
 
 
@@ -98,13 +98,13 @@ Para mostrar itens colocados no array:
 
 
 
-&nbsp;   para i<-1 até 5 faça
+   para i<-1 até 5 faça
 
-&nbsp;       escreval("Conteúdo de posição", i)
+       escreval("Conteúdo de posição", i)
 
-&nbsp;       escreval(x\[i])
+       escreval(x\[i])
 
-&nbsp;   fimpara
+   fimpara
 
 
 
@@ -112,23 +112,23 @@ Variável de controle: é uma variável numérica que controla o número de veze
 
 
 
-\## Praticando vetores
+## Praticando vetores
 
 Montar fluxogramas e pseudocódigos dos seguintes enunciados:
 
 
 
-\- O algoritmo deve receber dez números digitados pelo usuário e mostrar qual o menor.
+- O algoritmo deve receber dez números digitados pelo usuário e mostrar qual o menor.
 
 
 
-!\[fluxograma de enunciado 1](fluxograma\_ex1.png)
+![fluxograma de enunciado 1](fluxograma_ex1.png)
 
 
 
 
 
-\## Matrizes
+## Matrizes
 
 
 
@@ -142,11 +142,11 @@ exemplo de declaração de variável de mat:
 
 
 
-var mat:vetor \[1..2, 1..4] de inteiro
+var mat:vetor [1..2, 1..4] de inteiro
 
 
 
-!\[esqueminha explicando o conceito de matrizes](esquema\_de\_matrizes\_1.png)
+![esqueminha explicando o conceito de matrizes](esquema_de_matrizes_1.png)
 
 
 
@@ -160,51 +160,51 @@ Pseudocódigo:
 
 
 
-&nbsp;   \\\\ i é o indíce das linhas (i) e j são as colunas (i,j)
+   \\\\ i é o indíce das linhas (i) e j são as colunas (i,j)
 
-&nbsp;   Algoritmo "UsandoMatriz"
-
-
-
-&nbsp;   var
-
-&nbsp;   x: vetor\[1..2, 1..4] de real
-
-&nbsp;   i,j: inteiro
+   Algoritmo "UsandoMatriz"
 
 
 
-&nbsp;   Inicio
+   var
+
+   x: vetor[1..2, 1..4] de real
+
+   i,j: inteiro
 
 
 
-&nbsp;   para i <- 1 até 2 faça
-
-&nbsp;    para j <-1 até 4 faça
+   Inicio
 
 
 
-&nbsp;    escreval("Para X\[",i,",",j,"] =")
+   para i <- 1 até 2 faça
 
-&nbsp;    leia(x\[i,j])
-
-&nbsp;    para i <- 2 até 2 faça
-
-&nbsp;         para j <-1 até 4 faça
-
-&nbsp;         escreval("Para X\[",i,",",j,"] =")
-
-&nbsp;         leia(x\[i,j])
-
-&nbsp;    
-
-&nbsp;       fimpara
-
-&nbsp;   fimpara
+    para j <-1 até 4 faça
 
 
 
-&nbsp;   fimalgoritmo
+    escreval("Para X\[",i,",",j,"] =")
+
+    leia(x\[i,j])
+
+    para i <- 2 até 2 faça
+
+         para j <-1 até 4 faça
+
+         escreval("Para X\[",i,",",j,"] =")
+
+         leia(x\[i,j])
+
+    
+
+       fimpara
+
+   fimpara
+
+
+
+   fimalgoritmo
 
 
 
@@ -214,57 +214,57 @@ Exemplo 1: O algoritmo deve receber 6 números digitados pelo usuário, armazena
 
 seguida, deve mostrar qual o maior número digitado
 
-&nbsp;   
+  
 
-&nbsp;   Algoritmo "TreinoMatriz"
+   Algoritmo "TreinoMatriz"
 
-&nbsp;       var
-
-
-
-&nbsp;       x: vetor\[1..3,1..2] de real
-
-&nbsp;       i,j :inteiro
-
-&nbsp;       maior: real
+       var
 
 
 
-&nbsp;   Inicio
+       x: vetor\[1..3,1..2] de real
 
-&nbsp;   para i <- 1 até 3 faça
+       i,j :inteiro
 
-&nbsp;       para j <-1 até 2 faça
-
-&nbsp;       Escreval("Para x\[" , i, ",", j, "]: ")
-
-&nbsp;       Leia(x\[i,j])
+       maior: real
 
 
 
-&nbsp;       maior <- x\[1,1]
+   Inicio
+
+   para i <- 1 até 3 faça
+
+       para j <-1 até 2 faça
+
+       Escreval("Para x[" , i, ",", j, "]: ")
+
+       Leia(x[i,j])
 
 
 
-&nbsp;       se x\[i,j] > maior entao
-
-&nbsp;       maior <- x\[i,j]
-
-&nbsp;       Fimse
-
-&nbsp;       Fimpara
+       maior <- x\[1,1]
 
 
 
-&nbsp;   Fimpara
+       se x[i,j] > maior entao
 
-&nbsp;   Escreval("O maior número é", maior)
+       maior <- x\[i,j]
 
-&nbsp;   fimalgoritmo
+       Fimse
+
+       Fimpara
 
 
 
-\## Prova UNICSUL:
+   Fimpara
+
+   Escreval("O maior número é", maior)
+
+   fimalgoritmo
+
+
+
+## Prova UNICSUL:
 
 
 
@@ -278,25 +278,25 @@ Considerando a declaração do vetor a seguir, qual, dentre as seguintes alterna
 
 
 
-var vet: vetor\[1..5] de inteiro
+var vet: vetor[1..5] de inteiro
 
 
 
 Minha resposta: 
 
-&nbsp;   i: inteiro
+   i: inteiro
 
 
 
-&nbsp;   para i de 1 até 5 passo 1 faça
+   para i de 1 até 5 passo 1 faça
 
-&nbsp;       vet\[i] <- i \* 10
+       vet[i] <- i * 10
 
-&nbsp;   
+ 
 
-&nbsp;   fimpara
+   fimpara
 
-&nbsp;   fimalgoritmo
+   fimalgoritmo
 
 
 
@@ -310,25 +310,25 @@ Um vetor é conhecido como uma estrutura composta unidimensional homogênea. Qua
 
 
 
-&nbsp;   Algoritmo "Questao2"
+   Algoritmo "Questao2"
 
 
 
-&nbsp;   var vet: vetor\[1..10] de inteiro
+   var vet: vetor\[1..10] de inteiro
 
 
 
-&nbsp;   Inicio
+   Inicio
 
 
 
-&nbsp;       para i de 1 até 10 passo -1 faça
+       para i de 1 até 10 passo -1 faça
 
-&nbsp;       leia(vet\[i])
+       leia(vet\[i])
 
-&nbsp;       fimpara
+       fimpara
 
-&nbsp;   fimalgoritmo
+   fimalgoritmo
 
 
 
@@ -342,13 +342,13 @@ Um algoritmo é uma sequência de passos os quais visam atingir um objetivo. Nes
 
 
 
-&nbsp;   para i de 1 ate 10 passo 2 faça 
+   para i de 1 ate 10 passo 2 faça 
 
-&nbsp;       leia(vet\[i])
+       leia(vet\[i])
 
-&nbsp;       vet\[i+1] <- vet\[i]+1
+       vet\[i+1] <- vet\[i]+1
 
-&nbsp;   fimpara
+   fimpara
 
 Minha respostas: 
 
@@ -376,17 +376,17 @@ Questão 4:
 
 Uma matriz é conhecida como uma estrutura composta bidimensional homogênea. Considerando a declaração da matriz a seguir, assinale a alternativa que permite carregar essa matriz com a soma dos seus índices.
 
-var m:vetor\[1..3, 2..4] de inteiro
+var m:vetor[1..3, 2..4] de inteiro
 
 i, j: inteiro
 
 para i de 1 até 3 faça
 
-&nbsp;   para j de 2 até 4 passo 1 faça
+   para j de 2 até 4 passo 1 faça
 
 
 
-&nbsp;   m\[i,j] <- i+j
+   m[i,j] <- i+j
 
 
 
@@ -398,37 +398,37 @@ Uma matriz é uma estrutura homogênea multidimensional em que seus elementos s�
 
 
 
-!\[Questão 5 Desenho](questao5\_prova\_unicsul.png)
+![Questão 5 Desenho](questao5_prova_unicsul.png)
 
 
 
-var m: vetor\[1..3, 1..3] de real 
+var m: vetor[1..3, 1..3] de real 
 
-&nbsp;   i,j: inteiro
+   i,j: inteiro
 
-&nbsp;   
+   
 
-&nbsp;   inicio
+   inicio
 
-&nbsp;   para i de 1 até 3 faça
+   para i de 1 até 3 faça
 
-&nbsp;       para j de 1 até 3 faça
+       para j de 1 até 3 faça
 
-&nbsp;       se i <- j entao
+       se i <- j entao
 
-&nbsp;       m\[i,j] <- 0
+       m\[i,j] <- 0
 
 
 
-&nbsp;       senao
+       senao
 
-&nbsp;       m\[i,j] <-1 
+       m\[i,j] <-1 
 
-&nbsp;       Fimse
+       Fimse
 
-&nbsp;       Fimpara
+       Fimpara
 
-&nbsp;   fimpara
+   fimpara
 
 fimalgoritmo
 
