@@ -168,7 +168,7 @@ Pseudocódigo:
 
    var
 
-   x: vetor\[1..2, 1..4] de real
+   x: vetor[1..2, 1..4] de real
 
    i,j: inteiro
 
@@ -310,25 +310,25 @@ Um vetor é conhecido como uma estrutura composta unidimensional homogênea. Qua
 
 
 
-&nbsp;   Algoritmo "Questao2"
+   Algoritmo "Questao2"
 
 
 
-&nbsp;   var vet: vetor\[1..10] de inteiro
+   var vet: vetor\[1..10] de inteiro
 
 
 
-&nbsp;   Inicio
+   Inicio
 
 
 
-&nbsp;       para i de 1 até 10 passo -1 faça
+       para i de 1 até 10 passo -1 faça
 
-&nbsp;       leia(vet\[i])
+       leia(vet\[i])
 
-&nbsp;       fimpara
+       fimpara
 
-&nbsp;   fimalgoritmo
+   fimalgoritmo
 
 
 
@@ -342,13 +342,13 @@ Um algoritmo é uma sequência de passos os quais visam atingir um objetivo. Nes
 
 
 
-&nbsp;   para i de 1 ate 10 passo 2 faça 
+   para i de 1 ate 10 passo 2 faça 
 
-&nbsp;       leia(vet\[i])
+       leia(vet\[i])
 
-&nbsp;       vet\[i+1] <- vet\[i]+1
+       vet\[i+1] <- vet\[i]+1
 
-&nbsp;   fimpara
+   fimpara
 
 Minha respostas: 
 
@@ -376,17 +376,17 @@ Questão 4:
 
 Uma matriz é conhecida como uma estrutura composta bidimensional homogênea. Considerando a declaração da matriz a seguir, assinale a alternativa que permite carregar essa matriz com a soma dos seus índices.
 
-var m:vetor\[1..3, 2..4] de inteiro
+var m:vetor[1..3, 2..4] de inteiro
 
 i, j: inteiro
 
 para i de 1 até 3 faça
 
-&nbsp;   para j de 2 até 4 passo 1 faça
+   para j de 2 até 4 passo 1 faça
 
 
 
-&nbsp;   m\[i,j] <- i+j
+   m[i,j] <- i+j
 
 
 
@@ -398,37 +398,37 @@ Uma matriz é uma estrutura homogênea multidimensional em que seus elementos s�
 
 
 
-!\[Questão 5 Desenho](questao5\_prova\_unicsul.png)
+![Questão 5 Desenho](questao5_prova_unicsul.png)
 
 
 
-var m: vetor\[1..3, 1..3] de real 
+var m: vetor[1..3, 1..3] de real 
 
-&nbsp;   i,j: inteiro
+   i,j: inteiro
 
-&nbsp;   
+   
 
-&nbsp;   inicio
+   inicio
 
-&nbsp;   para i de 1 até 3 faça
+   para i de 1 até 3 faça
 
-&nbsp;       para j de 1 até 3 faça
+       para j de 1 até 3 faça
 
-&nbsp;       se i <- j entao
+       se i <- j entao
 
-&nbsp;       m\[i,j] <- 0
+       m\[i,j] <- 0
 
 
 
-&nbsp;       senao
+       senao
 
-&nbsp;       m\[i,j] <-1 
+       m\[i,j] <-1 
 
-&nbsp;       Fimse
+       Fimse
 
-&nbsp;       Fimpara
+       Fimpara
 
-&nbsp;   fimpara
+   fimpara
 
 fimalgoritmo
 
