@@ -32,7 +32,7 @@ Em pseudocódigo:
 
 
 
-   var nome da variável: vetor\[posição inicial..posição final] de tipo\_de\_dados
+   var nome da variável: vetor[posição inicial..posição final] de tipo_de_dados
 
 
 
@@ -102,7 +102,7 @@ Para mostrar itens colocados no array:
 
        escreval("Conteúdo de posição", i)
 
-       escreval(x\[i])
+       escreval(x[i])
 
    fimpara
 
@@ -146,7 +146,7 @@ var mat:vetor [1..2, 1..4] de inteiro
 
 
 
-![esqueminha explicando o conceito de matrizes](esquema_de_matrizes_1.png)
+![esqueminha explicando o conceito de matrizes](esquema_de_matrizes.png)
 
 
 
