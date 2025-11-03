@@ -102,7 +102,7 @@ Para mostrar itens colocados no array:
 
        escreval("Conteúdo de posição", i)
 
-       escreval(x\[i])
+       escreval(x[i])
 
    fimpara
 
